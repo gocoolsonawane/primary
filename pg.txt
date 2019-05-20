@@ -1,0 +1,9 @@
+This is a sample text file from PG
+
+//sample edited by by gokul
+
+//this is good thing we can combine this changes.
+
+//for 2nd change
+//demo1
+//demo 2
