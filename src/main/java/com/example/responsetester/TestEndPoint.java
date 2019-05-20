@@ -25,6 +25,16 @@ public class TestEndPoint {
 		// System.out.println(new ObjectMapper().writeValueAsString(response));
 		return "Success";
 	}
+	
+	@GetMapping("hello")
+	public String myAnotherTest(HttpServletRequest request) {
+		// TODO
+		//FIXME
+		request.getAttributeNames().asIterator().forEachRemaining(System.out::println);
+		//we are doing test
+		return "Hello Test";
+	}
+	
 
 	
 
